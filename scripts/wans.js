@@ -1,2 +1,7 @@
 console.log('this is my production branch');
-console.log('my host : ' + window.location.hostname);
+function getCurrentDomain() {
+  return window.location.hostname;
+}
+
+// Usage:
+console.log("Running on domain:", getCurrentDomain());
