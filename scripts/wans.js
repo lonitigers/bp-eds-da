@@ -1,5 +1,6 @@
-console.log('v2');
+console.log('v3');
 console.log('this is my production branch');
+console.log(window.location.hostname);
 if(window.location.hostname == 'da.live/')
 {
   console.log('you are running on da.live');
