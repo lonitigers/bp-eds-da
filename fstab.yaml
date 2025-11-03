@@ -2,4 +2,3 @@ mountpoints:
   /:
     url: https://content.da.live/lonitigers/bp-eds-da/
     type: markup
-imageFileName: my-image.jpg
